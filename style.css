@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #e6e0d0;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background: #c5ded7;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+.hero {
+  padding: 2em;
+  background: url('welding.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.button {
+  background: #c5ded7;
+  padding: 1em;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #222;
+  color: #fff;
+}

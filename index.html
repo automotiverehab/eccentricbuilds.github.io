@@ -21,23 +21,26 @@
     header {
       background-color: transparent;
       padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
       position: absolute;
       width: 100%;
       top: 0;
       z-index: 1000;
     }
 
-    header img {
+    .header-inner {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .header-inner img {
       height: 240px;
     }
 
     nav {
       display: flex;
       gap: 1.5rem;
-      margin-left: 2rem;
+      flex-wrap: wrap;
     }
 
     nav a {
@@ -168,14 +171,16 @@
 <body>
 
   <header>
-    <img src="assets/eccentric-builds-logo.png" alt="Eccentric Builds Logo" />
-    <nav>
-      <a href="#">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#garage-gang">Garage Gang</a>
-      <a href="/merch">Merch</a>
-      <a href="/automotive-rehab">Automotive Rehab</a>
-    </nav>
+    <div class="header-inner">
+      <img src="assets/eccentric-builds-logo.png" alt="Eccentric Builds Logo" />
+      <nav>
+        <a href="#">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#garage-gang">Garage Gang</a>
+        <a href="/merch">Merch</a>
+        <a href="/automotive-rehab">Automotive Rehab</a>
+      </nav>
+    </div>
   </header>
 
   <section class="hero">

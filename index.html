@@ -6,12 +6,16 @@
   <title>Eccentric Builds</title>
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --beige: #e5d2a1;
+    }
+
     body {
       margin: 0;
       font-family: 'Rubik', sans-serif;
       background: url('assets/welding.jpg') no-repeat center center fixed;
       background-size: cover;
-      color: #f5f0dc;
+      color: var(--beige);
     }
 
     header {
@@ -31,27 +35,28 @@
     }
 
     nav {
-      margin-left: 1rem;
+      display: flex;
+      gap: 1.5rem;
+      margin-left: 2rem;
     }
 
     nav a {
-      color: #f5f0dc;
+      color: var(--beige);
       text-decoration: none;
-      margin-left: 1.2rem;
       font-weight: bold;
       font-size: 1.1rem;
     }
 
     .hero {
       text-align: center;
-      padding: 12rem 2rem 5rem;
+      padding: 10rem 2rem 3rem;
     }
 
     .hero h2 {
       font-family: 'Permanent Marker', cursive;
       font-size: 2.5rem;
       margin-bottom: 2rem;
-      color: #f5f0dc;
+      color: var(--beige);
     }
 
     .hero a {
@@ -69,7 +74,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      padding: 5rem 4rem;
+      padding: 2rem 4rem 1rem;
       flex-wrap: wrap;
     }
 
@@ -83,13 +88,13 @@
       font-family: 'Permanent Marker', cursive;
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
-      color: #f5f0dc;
+      color: var(--beige);
     }
 
     .gang-text p {
       font-size: 1.2rem;
       margin-bottom: 1rem;
-      color: #f5f0dc;
+      color: var(--beige);
     }
 
     .gang-text input,
@@ -119,7 +124,7 @@
       font-family: 'Permanent Marker', cursive;
       font-size: 2.2rem;
       margin-bottom: 2rem;
-      color: #f5f0dc;
+      color: var(--beige);
     }
 
     .project-grid {
@@ -144,18 +149,18 @@
 
     .project-card h3 {
       margin-top: 0.75rem;
-      color: #f5f0dc;
+      color: var(--beige);
     }
 
     footer {
       background-color: transparent;
       text-align: center;
       padding: 2rem;
-      color: #f5f0dc;
+      color: var(--beige);
     }
 
     footer a {
-      color: #f5f0dc;
+      color: var(--beige);
       text-decoration: underline;
     }
   </style>

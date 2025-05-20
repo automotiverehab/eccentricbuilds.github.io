@@ -27,7 +27,7 @@
       color: #f5f0dc;
     }
     .hero {
-      background-image: url('assets/images/welding-background.jpg');
+      background-image: url('assets/welding.jpg');
       background-size: cover;
       background-position: center;
       text-align: center;
@@ -36,6 +36,10 @@
     .hero h2 {
       font-size: 2rem;
       margin-bottom: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
       color: #f5f0dc;
     }
     .hero a {
@@ -44,6 +48,8 @@
       color: #f5f0dc;
       text-decoration: none;
       font-weight: bold;
+      display: inline-block;
+      margin-top: 1rem;
     }
     #garage-gang {
       display: flex;
@@ -96,14 +102,20 @@
   </style>
 </head>
 <body>
+
+  <!-- Header -->
   <header>
-    <img src="assets/images/eccentric-builds-logo.png" alt="Eccentric Builds Logo" />
+    <img src="assets/eccentric-builds-logo.png" alt="Eccentric Builds Logo" />
     <h1>Eccentric Builds</h1>
   </header>
+
+  <!-- Hero Section -->
   <section class="hero">
     <h2>“If you're not over your head, you're not deep enough.”</h2>
     <a href="/merch">Shop the Merch</a>
   </section>
+
+  <!-- Garage Gang Teaser -->
   <section id="garage-gang">
     <div class="gang-text">
       <h2>Meet the Garage Gang</h2>
@@ -114,12 +126,15 @@
       </form>
     </div>
     <div class="gang-image">
-      <img src="assets/images/grimey.png" alt="Grimey the Grease Goblin" />
+      <img src="assets/grimey.png" alt="Grimey the Grease Goblin" />
     </div>
   </section>
+
+  <!-- Footer -->
   <footer>
-    <p>8147 Windham St. Garrettsville, OH 44236</p>
+    <p>8147 Windham St. Garrettsville, OH 44231</p>
     <p><a href="/automotive-rehab">Visit Automotive Rehab</a></p>
   </footer>
+
 </body>
 </html>
